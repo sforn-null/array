@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<string.h>
-//йЩвИвВн╙╨╞йЩ╡нйЩ
+//Ф∙╟Г╩└Д╫°Д╦╨Е┤╫Ф∙╟Е▐┌Ф∙╟
 
  void bubble_sort(int arr[],int sz)
  {
- 	//х╥╤╗ц╟ещеепР╣длкйЩ
+ 	//Г║╝Е╝ Е├▓ФЁ║Ф▌▓Е╨▐Г └Х╤÷Ф∙╟
 	 int i =0;
 	 for(i=0;i<sz-1;i++)
 	 {
-	 	//ц©р╩лкц╟ещеепР
+	 	//Ф╞▐Д╦─Х╤÷Е├▓ФЁ║Ф▌▓Е╨▐
 		 int j=0;
 		 for(j=0;j<sz-1-i;j++) 
 		 {
@@ -26,8 +26,8 @@
  	int arr[] ={9,8,7,6,5,4,3,2,1,0};
  	int i=0;
  	int sz=sizeof(arr)/sizeof(arr[0]);
- 	//╤тarr╫ЬппеепРё╛ееЁииЩпР
- 	bubble_sort(arr,sz);//ц╟ещеепР╨╞йЩ 
+ 	//Е╞╧arrХ©⌡Х║▄Ф▌▓Е╨▐О╪▄Ф▌▓Ф┬░Е█┤Е╨▐
+ 	bubble_sort(arr,sz);//Е├▓ФЁ║Ф▌▓Е╨▐Е┤╫Ф∙╟ 
  	for(i=0;i<sz;i++)
 	 {
 	 	printf("%d ",arr[i]);
